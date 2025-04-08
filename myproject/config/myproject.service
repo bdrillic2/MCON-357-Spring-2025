@@ -1,0 +1,9 @@
+Description=Gunicorn for Django
+After=network.target
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/MCON-357-Spring-2025/myproject
+ExecStart=/home/ubuntu/MCON-357-Spring-2025/venv/bin/gunicorn myproject.wsgi:application --bind 127.0.0.1:8000
+[Install]
+WantedBy=multi-user.target

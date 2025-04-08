@@ -1,0 +1,7 @@
+SECRET_KEY=super-secret
+DEBUG=false
+DB_USER=postgres
+DB_NAME=mcon357db
+DB_HOST=//put your DB endpoint here
+DB_PORT=5432
+DB_PWD=//put your DB password hear

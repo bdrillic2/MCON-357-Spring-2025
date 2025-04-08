@@ -1,0 +1,5 @@
+function myproject(){
+ cd ~/MCON-357-Spring-2025
+ source ./venv/bin/activate
+ cd myproject
+}
